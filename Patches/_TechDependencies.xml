@@ -2,6 +2,7 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 	  <operations>
+	  
 		<li Class="PatchOperationReplace">
 		  <xpath>Defs/ResearchProjectDef[defName="BlowbackOperation"]/prerequisites</xpath>
 			<value>
@@ -10,6 +11,16 @@
 				</prerequisites>
 			</value>
 		</li>
+		
+		<li Class="PatchOperationReplace">
+		  <xpath>Defs/ResearchProjectDef[defName="PrecisionRifling"]/prerequisites</xpath>
+			<value>
+				<prerequisites>
+					<li>CETR_AdvancedRifling</li>
+				</prerequisites>
+			</value>
+		</li>
+		
 	  </operations>
 	</Operation>
 </Patch>
