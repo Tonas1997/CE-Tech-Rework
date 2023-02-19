@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ResearchProjectDef>
+    <defName>CETR_SmokelessPowder</defName>
+    <label>smokeless powder</label>
+    <description>Craft weapons and ammo that use smokeless powder.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Gunsmithing</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>4.25</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CETR_ManualOperation</defName>
+    <label>manual operation</label>
+    <description>Craft early weapons which are loaded by hand.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>CETR_SmokelessPowder</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>4.25</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CETR_BasicRifling</defName>
+    <label>basic rifling</label>
+    <description>Craft weapons which use basic rifling technology.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>CETR_SmokelessPowder</li>
+    </prerequisites>
+    <researchViewX>10</researchViewX>
+    <researchViewY>5.7</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>CETR_AdvancedRifling</defName>
+    <label>advanced rifling</label>
+    <description>Craft weapons which use advanced rifling technology.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>CETR_BasicRifling</li>
+    </prerequisites>
+    <researchViewX>10</researchViewX>
+    <researchViewY>5.7</researchViewY>
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>CETR_HiLowPressure</defName>
+    <label>high-low pressure</label>
+    <description>Craft grenade launchers which use the hi-low pressure system.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>CETR_SmokelessPowder</li>
+    </prerequisites>
+    <researchViewX>10</researchViewX>
+    <researchViewY>5.7</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>
