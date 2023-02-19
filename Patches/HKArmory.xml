@@ -44,7 +44,7 @@
 					<xpath>/Defs/ThingDef[defName="HK_USPgun" or defName="HK_USPCompactgun" or defName="HK_USPtgun" or defName="HK_CAWSgun"]</xpath>
 					<value>
 						<researchPrerequisites>
-							<li>CETR_BasicRifling</li>
+							<li>CETR_AdvancedRifling</li>
 							<li>BlowbackOperation</li>
 						</researchPrerequisites>
 					</value>
