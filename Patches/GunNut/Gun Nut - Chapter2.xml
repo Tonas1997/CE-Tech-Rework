@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[HRK] Gun Nut - Chapter #2</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- ASh-12 -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_AShTwelve"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_AShTwelve"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>BlowbackOperation</li>
+							<li>PrecisionRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- AS Val -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_ASVAL"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_ASVAL"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>GasOperation</li>
+							<li>PrecisionRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- GM6 -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_GMSix"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_GMSix"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>BlowbackOperation</li>
+							<li>PrecisionRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- G36 -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_GThirtySix"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_GThirtySix"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>GasOperation</li>
+							<li>PrecisionRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- HKGL -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_HKGL"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_HKGL"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>CETR_ManualOperation</li>
+							<li>CETR_HiLowPressureSystem</li>
+							<li>PrecisionRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- SKS -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_SKS"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_SKS"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>GasOperation</li>
+							<li>CETR_BasicRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- Neopup -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_Neopup"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_Neopup"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>BlowbackOperation</li>
+							<li>PrecisionRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- P90 SD -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_PNinety"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_PNinety"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>BlowbackOperation</li>
+							<li>PrecisionRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
