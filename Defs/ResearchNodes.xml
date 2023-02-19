@@ -54,8 +54,8 @@
   </ResearchProjectDef>
   
   <ResearchProjectDef>
-    <defName>CETR_HiLowPressure</defName>
-    <label>high-low pressure</label>
+    <defName>CETR_HiLowPressureSystem</defName>
+    <label>high-low pressure system</label>
     <description>Craft grenade launchers which use the hi-low pressure system.</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
