@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>HK Armory - Revengeance!</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+			
+				<!-- 5.56mm guns -->
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName="HK_HK33gun" or defName="HK_HK33SG1gun" or defName="HK_HK53gun"]/recipeMaker/researchPrerequisite</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HK_HK33gun" or defName="HK_HK33SG1gun" or defName="HK_HK53gun"]</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>CETR_AdvancedRifling</li>
+							<li>BlowbackOperation</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+			
+				<!-- 7.62mm guns -->
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName="HK_G3gun" or defName="HK_G3HK79gun" or defName="HK_G3SG1gun" or defName="HK_PSG1gun" or defName="HK_HK21gun" or defName="HK_HKG8gun" or defName="HK_HK51gun"]/recipeMaker/researchPrerequisite</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HK_G3gun" or defName="HK_G3HK79gun" or defName="HK_G3SG1gun" or defName="HK_PSG1gun" or defName="HK_HK21gun" or defName="HK_HKG8gun" or defName="HK_HK51gun"]</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>CETR_AdvancedRifling</li>
+							<li>BlowbackOperation</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- Pistols -->
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName="HK_USPgun" or defName="HK_USPCompactgun" or defName="HK_USPtgun" or defName="HK_CAWSgun"]/recipeMaker/researchPrerequisite</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HK_USPgun" or defName="HK_USPCompactgun" or defName="HK_USPtgun" or defName="HK_CAWSgun"]</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>CETR_SimpleRifling</li>
+							<li>BlowbackOperation</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- Grenade launchers -->
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName="HK_HK69gun"]/recipeMaker/researchPrerequisite</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HK_HK69gun"]</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>CETR_HiLowPressureSystem</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName="HK_HK33M203gun"]/recipeMaker/researchPrerequisite</xpath>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HK_HK33M203gun"]</xpath>
+					<value>
+						<researchPrerequisites>
+							<li>CETR_HiLowPressureSystem</li>
+							<li>CETR_AdvancedRifling</li>
+							<li>BlowbackOperation</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
