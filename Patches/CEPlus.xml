@@ -8,11 +8,14 @@
 			<operations>
 			
 				<!-- 9A91 -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_9A91Gun"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_9A91Gun"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_9A91Gun"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>GasOperation</li>
@@ -22,11 +25,14 @@
 				</li>
 				
 				<!-- Bizon -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_Bizon"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_Bizon"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_Bizon"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>BlowbackOperation</li>
@@ -36,11 +42,14 @@
 				</li>
 				
 				<!-- VZ-58 -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_VZor58n"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_VZor58n"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_VZor58n"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>GasOperation</li>
@@ -50,11 +59,14 @@
 				</li>
 				
 				<!-- Snake Charmer -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_SnakeCharmer"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_SnakeCharmer"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_SnakeCharmer"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>CETR_ManualOperation</li>
@@ -63,11 +75,14 @@
 				</li>
 				
 				<!-- AR-CHR -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_cowboyAR"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_cowboyAR"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_cowboyAR"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>GasOperation</li>
@@ -77,11 +92,14 @@
 				</li>
 				
 				<!-- Ozbay OU12-CG -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_doubleBarrel"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_doubleBarrel"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_doubleBarrel"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>CETR_ManualOperation</li>
@@ -90,11 +108,14 @@
 				</li>
 				
 				<!-- Gryurza -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_Gryuza"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_Gryuza"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_Gryuza"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>BlowbackOperation</li>
@@ -104,11 +125,14 @@
 				</li>
 				
 				<!-- Vepr Hunter -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_VerpHunter"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_VerpHunter"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_VerpHunter"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>GasOperation</li>
@@ -118,11 +142,14 @@
 				</li>
 				
 				<!-- Kedr -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_Kedr"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_Kedr"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_Kedr"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>BlowbackOperation</li>
@@ -132,11 +159,14 @@
 				</li>
 				
 				<!-- MAS-36 -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_MasThreeSix"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_MasThreeSix"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_MasThreeSix"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>CETR_ManualOperation</li>
@@ -146,11 +176,14 @@
 				</li>
 				
 				<!-- Thompson Contender -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_Contender"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_Contender"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_Contender"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>CETR_ManualOperation</li>
@@ -160,11 +193,14 @@
 				</li>
 				
 				<!-- Makarov -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_Makarov"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_Makarov"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_Makarov"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>BlowbackOperation</li>
@@ -174,11 +210,14 @@
 				</li>
 				
 				<!-- M1910 -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_1910Nine"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_1910Nine"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_1910Nine"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>BlowbackOperation</li>
@@ -188,11 +227,14 @@
 				</li>
 				
 				<!-- VSS Vintorez -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_VSSVintorez"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_VSSVintorez"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_VSSVintorez"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>GasOperation</li>
@@ -202,11 +244,14 @@
 				</li>
 				
 				<!-- Toz shotgun -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_TozShotgun"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_TozShotgun"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_TozShotgun"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>CETR_ManualOperation</li>
@@ -215,11 +260,14 @@
 				</li>
 				
 				<!-- Veresk -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_Veresk"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_Veresk"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_Veresk"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>GasOperation</li>
@@ -229,11 +277,14 @@
 				</li>
 				
 				<!-- AK-104 -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_AK104Gun"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_AK104Gun"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_AK104Gun"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>GasOperation</li>
@@ -243,11 +294,14 @@
 				</li>
 				
 				<!-- AKS-74 -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_AKS74N"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_AKS74N"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_AKS74N"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>GasOperation</li>
@@ -257,11 +311,14 @@
 				</li>
 				
 				<!-- M76 -->
-				<li Class="PatchOperationRemove">
+				<li Class="PatchOperationReplace">
 					<xpath>/Defs/ThingDef[defName="CEPlus_M76HGun"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
 				</li>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="CEPlus_M76HGun"]</xpath>
+					<xpath>/Defs/ThingDef[defName="CEPlus_M76HGun"]/recipeMaker</xpath>
 					<value>
 						<researchPrerequisites>
 							<li>GasOperation</li>
