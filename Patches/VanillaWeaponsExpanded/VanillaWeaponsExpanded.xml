@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- AKM -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_ServiceRifle"]</xpath>
+					<value>
+						<recipeMaker>
+							<researchPrerequisites Inherit="False">
+								<li>GasOperation</li>
+								<li>CETR_AdvancedRifling</li>
+							</researchPrerequisites>
+						</recipeMaker>
+					</value>
+				</li>
+				
+				<!-- SVD -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_MarksmanRifle"]</xpath>
+					<value>
+						<recipeMaker>
+							<researchPrerequisites Inherit="False">
+								<li>GasOperation</li>
+								<li>CETR_AdvancedRifling</li>
+							</researchPrerequisites>
+						</recipeMaker>
+					</value>
+				</li>
+				
+				<!-- Chiappa Rhino -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_HandCannon"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_HandCannon"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>CETR_ManualOperation</li>
+							<li>PrecisionRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- P220 -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWE_CombatHandgun"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_CombatHandgun"]/recipeMaker</xpath>
+					<value>
+							<researchPrerequisites Inherit="False">
+								<li>BlowbackOperation</li>
+								<li>CETR_AdvancedRifling</li>
+							</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- Winchester 1873 -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_LeverActionRifle"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_LeverActionRifle"]/recipeMaker</xpath>
+					<value>
+							<researchPrerequisites Inherit="False">
+								<li>CETR_ManualOperation</li>
+							</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- MP5K -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_SMG"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_SMG"]/recipeMaker</xpath>
+					<value>
+							<researchPrerequisites Inherit="False">
+								<li>GasOperation</li>
+								<li>CETR_AdvancedRifling</li>
+							</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- UZI -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_LightSMG"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_LightSMG"]/recipeMaker</xpath>
+					<value>
+							<researchPrerequisites Inherit="False">
+								<li>BlowbackOperation</li>
+								<li>CETR_AdvancedRifling</li>
+							</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- SCAR-H -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_BattleRifle"]</xpath>
+					<value>
+						<recipeMaker>
+							<researchPrerequisites Inherit="False">
+								<li>GasOperation</li>
+								<li>PrecisionRifling</li>
+							</researchPrerequisites>
+						</recipeMaker>
+					</value>
+				</li>
+				
+				<!-- Steyr AUG -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_Carbine"]</xpath>
+					<value>
+						<recipeMaker>
+							<researchPrerequisites Inherit="False">
+								<li>GasOperation</li>
+								<li>PrecisionRifling</li>
+							</researchPrerequisites>
+						</recipeMaker>
+					</value>
+				</li>
+				
+				<!-- M14 -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_SemiAutomaticRifle"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_SemiAutomaticRifle"]/recipeMaker</xpath>
+					<value>
+							<researchPrerequisites Inherit="False">
+								<li>GasOperation</li>
+								<li>CETR_AdvancedRifling</li>
+							</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- Barrett M82 -->
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWE_Gun_AntiMaterialRifle"]</xpath>
+					<value>
+						<recipeMaker>
+							<researchPrerequisites Inherit="False">
+								<li>BlowbackOperation</li>
+								<li>PrecisionRifling</li>
+							</researchPrerequisites>
+						</recipeMaker>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>

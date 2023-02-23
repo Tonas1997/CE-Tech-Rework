@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>WW2 Soviet SMGs</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- PPD -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_PPD"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_PPD"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>BlowbackOperation</li>
+							<li>CETR_BasicRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- PPSh (stick mag) -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_PPShM"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_PPShM"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>BlowbackOperation</li>
+							<li>CETR_BasicRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- PPSh (drum mag) -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_PPSh"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_PPSh"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>BlowbackOperation</li>
+							<li>CETR_BasicRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- PPS -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="HRK_PPS"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="HRK_PPS"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>BlowbackOperation</li>
+							<li>CETR_BasicRifling</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>

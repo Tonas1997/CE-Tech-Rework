@@ -21,15 +21,19 @@
 				</li>
 			
 				<!-- Winchester Model 1894 -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="CE_Gun_WinchesterNintyFour"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/ThingDef[defName="CE_Gun_WinchesterNintyFour"]</xpath>
 					<value>
-						<recipeMaker>
-							<researchPrerequisites Inherit="False">
-								<li>CETR_ManualOperation</li>
-								<li>CETR_BasicRifling</li>
-							</researchPrerequisites>
-						</recipeMaker>
+						<researchPrerequisites Inherit="False">
+							<li>CETR_ManualOperation</li>
+							<li>CETR_BasicRifling</li>
+						</researchPrerequisites>
 					</value>
 				</li>
 				

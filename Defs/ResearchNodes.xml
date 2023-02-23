@@ -21,7 +21,7 @@
     <baseCost>500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>CETR_SmokelessPowder</li>
+      <li>Gunsmithing</li>
     </prerequisites>
     <researchViewX>2</researchViewX>
     <researchViewY>4.25</researchViewY>

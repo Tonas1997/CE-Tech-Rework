@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Weapons Expanded - Frontier</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+			
+				<!-- Colt 1851 Navy -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_HeavyRevolver"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_HeavyRevolver"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>Gunsmithing</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- Volcanic Repeating Pistol -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_VolcanicPistol"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_VolcanicPistol"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>Gunsmithing</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- C96 Mauser -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_FrontierPistol"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_FrontierPistol"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>CETR_SmokelessPowder</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- Remington Rolling Block Rifle -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_RollingBlockRifle"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_RollingBlockRifle"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>CETR_ManualOperation</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- Winchester M1887 -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_RepeatingShotgun" or defName="VWEFT_Gun_LeverActionShotgun"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_RollingBlockRifle" or defName="VWEFT_Gun_LeverActionShotgun"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>CETR_ManualOperation</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+				<!-- Remington M95 -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_Derringer"]/recipeMaker/researchPrerequisite</xpath>
+					<value>
+						<researchPrerequisite Inherit="False"/>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/ThingDef[defName="VWEFT_Gun_Derringer"]/recipeMaker</xpath>
+					<value>
+						<researchPrerequisites Inherit="False">
+							<li>Gunsmithing</li>
+						</researchPrerequisites>
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
